@@ -1,0 +1,71 @@
+.App-logo {
+  width: 20%;
+}
+
+.App-header {
+  background-color: #282c34;
+  margin: 0 auto;
+}
+
+.zadani,
+.vysledek,
+.spocitej,
+.reset {
+  font-family: 'Fira Mono', monospace;
+}
+
+.calcul {
+  color: #282c34;
+}
+
+.vysledek {
+  background-color: #282c34;
+}
+
+.spocitej {
+  background-color: #282c34;
+  color: white;
+}
+.spocitej:hover {
+  background-color: #ddf8ff;
+  color: #282c34;
+}
+
+.reset:hover {
+  background-color: #282c34;
+  color: white
+}
+
+.funkce {
+  width: 38%;
+}
+
+.zadani {
+  background-color: #ddf8ff;
+}
+
+.nadpis {
+  font-family: 'Fira Mono', monospace;
+  color: #282c34;
+}
+
+.react-logo {
+  color: #61dafb;
+  font-family: 'Fira Mono', monospace;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
